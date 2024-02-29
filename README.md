@@ -17,9 +17,13 @@ Backend: PHP
 Database: MySQL
 
 # How  To Implement It at local machine
-1. Create Database named bank
-2. create 2 tables namely user_data and transaction
-3. In table user_data create column with name uname[varchar],password[varchar],phone[varchar],email[varchar],gender[varchar],photo[varchar],amount[INT]. Make uname as primary key
+1. Create Database named bank.
+2. create 2 tables namely user_data and transaction.
+3. In table user_data create column with name uname[varchar],password[varchar],phone[varchar],email[varchar],gender[varchar],photo[varchar],amount[INT]. Make uname as primary key.
 4. In table transaction create column with name  uname[varchar]'dep_amount[100],timestamp[datetime],id[int],with_amount[int],sent_amount[int],received_amount[int],rec_name[varchar],sender_name[varchar].
 5. download all files and folders which are uploaded with same name .
-6. run this on local host.[XAMPP is required].
+6. _nav.php and _nav2.php both file should be in one folder.
+7. make folder named images .[where image will be stored].
+8. download all css and javascript file from bootstrap and add into folder named css and js.
+9. Now the site is ready to run.
+10. run this on local host.[XAMPP is required].
